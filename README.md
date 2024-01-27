@@ -1,4 +1,3 @@
-Certainly! Here's a basic README document for your Flask application. Remember to replace placeholder texts with actual information as needed.
 
 ---
 
