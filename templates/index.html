@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat App</title>
+    </head>
+    <body>
+        <h1>Chat App</h1>
+        <div id="chat-box">
+            {% for message in conversation_history %}
+            <p>{{ message }}</p>
+            {% endfor %}
+        </div>
+        <form action="/chat" method="post">
+            <input
+                type="text"
+                name="user_input"
+                placeholder="Type your message..."
+                autocomplete="off"
+            />
+            <input type="submit" value="Send" />
+        </form>
+    </body>
+</html>
