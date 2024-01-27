@@ -105,5 +105,3 @@ Explore and experiment with OpenAI's GPT models using the [OpenAI Playground](ht
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-Feel free to customize this README based on the specific details of your project and the conventions of your development team. If you have more sections or specific information you'd like to include, adapt the document accordingly.
